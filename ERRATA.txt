@@ -1,0 +1,353 @@
+ERRATA
+======
+
+Page 15, Bullet 3, "... moving all the greater elements back by one position ..."
+Should be "forward by".
+
+Page 15, Last Paragraph, "cavallier" should be "cavalier".
+
+Page 17, below first equation, "since n ones is n".
+The sum of n ones is n.
+
+Page 17, "the sum of the first n even integers"
+"The sum of the first n imtegers, where n is even
+
+Page 17, "sub index of the two sums at the bottom shoud be 1 not i"
+
+Page 17, Arithmetic progessions ... sequence of squares or cubes is not an arithmetic progression.
+
+Page 18, "Geometric series" 
+Should be "Geometric progression" to be consistent with the previous bullet.
+
+Page 44, Par. 1, "Skiena."
+Should be "Skiena".
+
+Page 46, "Sums get evaluated from the right inward"
+Should be "outwrads"
+
+Page 59, 2-14, "f1(N)" should be f1(n)
+
+Page 71, Stacks and queuest, "... container to denote a data structure"
+Container is an ADT. Not a data structure.
+Also - I don't see the contrast between containers and dictionaries.
+
+Page 72, Dictionaires, "primary operations of dictionary support are"
+Should be "...dictionaries support are"
+
+Page 72, Insert(D,x) shoule be Insert(D,k,x)
+
+Page 74, Deletion, "up one position"
+Should be down one position.
+
+Page 74, The operations in the table should probably use A (for array) instead of L (for list which is used later).
+
+Page 74 - There is errate entry for page 74 which belong to page 75.
+
+Page 75, Table, "Doubly unsorted"
+Should be Doubly sorted.
+
+Page 76, "As with unsorted arrays, search operations are destined to be dlow while maintenance operations are fast."
+--- Maintenance is only fast for unsorted lists (assuming we use the singly linked list delete optimization in errata).
+
+Page 77, "but search took linear time in the worse case"
+In the worst case.
+
+Page 84, "priority queues are data structures"
+Should be "is an abstract data type".
+
+Page 89, "The result is unique identifier numbers."
+Should be "The result are unique integer numbers."
+
+Page 91, "count of the n characters"
+Should be "count n of the characters"
+
+Page 96, "Suffix tree is a trie"
+Should be "tree"
+
+Page 99, 3-5, "overhead fraction" (the ratio of data space over total space)
+Overhead fraction should presumably be "the ratio of non-data space over total space".
+
+Page 100, first bullet, "object is inserted.."
+Remove double dot.
+
+Page 101, 3-14, sum xj < y xi
+Shouldn't this be sum_i=0..k xi
+
+Page 104, 4th bullet, "though checking"
+
+Page 107, line 4, "Consider the following considerations"
+Rephrase
+
+Page 111, pq_parent / pq_young_child
+Missing int return types.
+
+Page 111, Stop and Think: Who's where in the heap?
+Should it be maybe in capitals? "Who's Where in the Heap?"
+
+Page 112, pq_insert
+Printf %d --- this might not work for some item_types.
+
+Page 114, Par #2, "Exchanging the maximum element with the last element..."
+Should be "Replacing the minimum element with the last element..."
+
+Page 116, In the Stop&Think paragraph, "...; you need only determine"
+Should be "you need only to determine"
+
+Page 116, last line, with i = 1 with count = k
+Should be "i = 1 and count = k"
+
+Page 121, Figure 4-4, divide is not quite consistent with the definition on the prev page.
+It would have been divided into "merg" and "esort".
+
+Page 122, line 4, either use lg(n) or log2(n).
+
+Page 122, line 12, we need use
+Should be "we need to use"
+
+Page 123, line -6, "the the"
+
+Page 124, the quicksort() function: if ((h-l)>0)
+Simply "if (l < h)".
+
+page 125, line 11, either use lg(n) or log2(n).
+
+page 132, line -1, "a big win over the n/2 comparisons expect"
+Should be "expected"
+
+(*) page 132, if q appeares before S[n/2] it must reside in the top half.
+I think this should be the other way round.
+
+Page 133, missing space before "binary_search" in the code.
+
+(*) Page 133, counting occurrences
+In the findLast, we need to return "high" not "-1" when low/high cross.
+In the findFirst, we need to return "low"  when low/high cross.
+Reversing the direction of the binary comparison is not enough to get from findLast to findFirst.
+We need to switch the return statements as well.
+
+Page 137, "... while Case 2 holds mergesort and binary search"
+... While Case 2 hold FOR mergesort ...
+
+(*) Page 139, "set of numbers"
+Should be "multi set" or "bag" since it contains duplicates.
+
+(*) Page 140, 4-10,
+There should be stated that "k > 1" because there is no way to find a solution in O(log n) for k=1.
+
+(*) Page 142, 4-27. "n" is not defined.
+Should probably be the number of edges/vertices of the simple polygon.
+
+Page 142, 4-30, "and who together"
+just "who together"
+
+Page 143, 4-33, "such as ai = i"
+Should this be "such that ai = i"?
+
+Page 143, 4-34, sequence of distinct integers {a1, a2, ..., an}.
+Should be "... distinct integers a = {a1, a2, ..., an}" because a is referred below.
+Also there should be "... find an integer x such that 1 <= x <= m ..."
+Otherwise I could just say the answer is -inf.
+
+Page 144, 4-44, "retrieve min"
+Did you maybe mean "extract min" (rather than "retrieve min") , in which case the answer would be "not possible"
+(because of the lower boundary of sorting being n*log(n))?
+(Similar to excercies 4-29)
+If you did mean "extract min" however, this would not really be a stack, would it.
+
+Page 154, function insert_edge, "p->weight = NULL"
+I believe "p->weight = 0" would be better because NULL is supposed to be used for pointers.
+
+Page 155, function print_graph, printf("%d: ", i)
+Could be without the space.
+
+Page 157, par 2, "user demands become"
+Should be "user demans became"
+
+Page 164, the code, processed[v] = TRUE.
+The ERRATA already mentions this should be set below the edge processing loop so as to be consistent with the pseudocode.
+Also in "Implementation" on the previous page, it reads "A vertex is considered processed after
+we have traversed all outgoing edges from it."
+
+Page 164, line 8, ERRATA states there is a right parenthesis missing at the end of this line. 
+It is not missing :)
+
+Page 169, function complement(),
+There should be return type int as is the case for example with the function partition() on page 124.
+
+Page 172, Par 1, Depth-first search use
+Should be "uses"
+
+Page 184, Chapter Notes, "... best described in the old [Ski90]. and new editions..."
+Remove the extra dot.
+
+Page 187, 5-13 vs. 5-14 - different wording for the definition of vertex cover.
+
+Page 187, 5-14 vs. 5-15 - different formatting in the definition of vertex cover.
+
+Page 187, 5-16 (b) and (c) - "find a maximum independent set of G"
+Did you mean "find a maximum-weight independent set of G"
+
+Page 188, 5-17, "bounds gives"
+Bounds give
+
+Page 196, Kruskal-MST(G)
+Missing "count++" in the pseudocode.
+
+(*) Page 207, The pseudocode of Dijkstra's algorithm.
+- The pseudocode terminates when we reach the vertex t, while the C code runs all the way until
+  the distances to all vertices are evaluated.
+- The pseudocode does not construct the search tree, so unlike the real C code,
+  it is not possible to reconstruct the path.
+
+Page 207, -2, "three lines"
+Should be "four lines" :-)
+
+Page 217, -4, "where as"
+Should be "whereas"
+
+Page 218, 2, "is in to solving"
+Should be "is in solving"
+
+Page 222, Analysis line 1, "the the optimal"
+Should be "the optimal"
+
+Page 227, 6-13, "of, m union"
+Should be "of m union"
+
+Page 227, 6-18, "vertices have can have"
+Should be "vertices can have"
+
+Page 228, 6-18 (a), "non-edges have a cost of inf"
+What are non-edges???
+
+Page 232, just before is_a_solution, "The application-specific parts of this algorithm consists of five subroutines."
+Should be "The application-specific part of this algorithm consists of five subroutines."
+
+Page 232, last paragraph, "... of vector a from ..."
+Should be "... of vector a form ..."
+
+Page 233, first line, construct_candidates(a,k,input,c,ncandidates)
+Should be construct_candidates(a,k,input,c,&ncandidates) to be consistent with the code.
+
+Page 233, code at bottom, The comment does not bring much value imho :)
+And there should be return type bool.
+
+Page 234, first par, "Printing each out"
+Should be "Printing out each"
+
+Page 234, par just under generate_subsets, "of moves construct_candidates"
+Should probably be "of moves as returned from construct_candidates"
+
+Page 236, is_a_solution
+Should have return type bool
+
+Page 238, par 1 of 7.2 Search pruning, "really exists"
+Should be "really exist"
+
+Page 241, is_a_solution
+Should have return type bool.
+
+Page 247, "gradient-descent search"
+??? Is this the same as "local search" ???
+
+Page 249, Figure 7.7
+It is not clear what the graph displays. Is it the values of cost_now or best_cost?
+What is "1 iteration" ... One call of the random_sampling() or
+does it correspond to the for cycle in the function?
+What value of nsamples was used?
+Is the graph one call to random_sampling() with nsamples = 1600000 and the plotted values are cost_now?
+Why did we not plot best_cost?
+
+(*) Page 250, Line -1, "in constant expected time"
+It would be great if you could elaborate on how come that we can say this is O(1)
+while it is a non-deterministically terminated loop. 
+
+Page 251, 7.5.2 Local Search
+The chapter uses "walking to the top of the mountain" as a metaphore for finding the solution with the lowest cost.
+Perhaps "walking to the lowest point in the area" would be a better metaphore because we would by
+minimizin the altitude.
+
+(*) Page 252, The text describes local search by random swaps
+but the implementation tries all swaps exhaustively.
+
+Page 254, Figure 7.9
+The graph is supposed to show streak of descending costs from the random sample to the local optima.
+I fail to distinguish them in the picture.
+Does the graph plot multiple invocations of the hill_climbing() function?
+
+Page 256, Figure 7.10
+Does the graph plot three invocations of the anneal() function?
+
+(*) Page 256, Acceptance criteria, C(s_i+1) < C(s_i)
+Incosistent with code on prev page, where strict inequality is used.
+
+Page 258, the code, "restore temperature ..."
+This is not mentioned in the pseudocode.
+
+Page 260, line 3, "transition mechanisms including"
+Should be "transition mechanisms include"
+
+Page 266, 7.8, line 3, "many techniques relies"
+Should be "many techniques rely"
+
+Page 273, Line -1, "for each subproblems"
+Should be "for each subproblem"
+
+Page 280, the function binomial_coefficient
+I'd suggest we don't use the old K&R style parameters declaration so we are
+consistent with the rest of the book.
+
+Page 280, the errate about i that should be starting from 2 instead of 1 should be marked with "*"
+
+(*) Page 280, the code in binomial_coefficient(), long bc[MAXN][MAXN]
+Should be long bc[MAXN+1][MAXN+1]
+
+Page 280, the thee bullet points
+"spot." => "spot".
+"agog." => "agog".
+"our." => "our".
+
+Page 281, 8.2.1
+I would expect a mention of / reference to "Levenshtein distance" and/or "Wagner–Fischer algorithm".
+
+Page 281, 8.2.1 Par 1 line 4, "Let i and j be the last character" --double error
+Should be "Let i and j be the indexes/indices of the last characterS".
+
+(*) Page 281, bullet points 2 & 3 seem to be copy-paste-mixed-up.
+I believe they should read as follows:
+1) D[i,j-1]+1. This means that there is an extra character in the text to account for,
+so we do not advance the pattern pointer and pay the cost of an insertion.
+2) D[i-1,j]+1. This means that there is an extra character in the pattern to remove,
+so we do not advance the text pointer and pay the cost on a deletion.
+
+Page 282, the commentary in the code, "We use odd index conventions"
+To make the word less ambiguous (odd as in odd/even) could we say "we use special index conentions"
+or something similar?
+
+Page 282, line -1, "argument parameters"
+Should probably be just "argument" or "parameters".
+
+(*)Page 283, the code of string_compare()
+The cycle calling row_init(i) and column_init(i) goes "for (i=0; i<MAXLEN; i++)" but should be "for (i=0; i<=MAXLEN; i++)"
+The two nested loops then are "for (i=1; i<strlen(s); i++)" and "for (j=1; j<strlen(t); j++)"
+but should be "for (i=1; i<=strlen(s); i++)" and "for (j=1; j<=strlen(t); j++".
+
+Page 285, in describing the the edit steps between the srouce and target strings:
+"... and finally replace the "t" with a "d"" should be
+", replace "t" with a "d" and finally match the remaining three characters "not"."
+
+Page 290, just before first bullet, "... the entire sequence?"
+Remove "?" - it is not a question.
+
+Page 291, there is errata online about the table and l_i, which seems to be already fixed.
+
+
+
+
+
+
+
+
+
+
+
