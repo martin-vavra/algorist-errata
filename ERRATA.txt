@@ -329,8 +329,6 @@ Should probably be just "argument" or "parameters".
 
 (*)Page 283, the code of string_compare()
 The cycle calling row_init(i) and column_init(i) goes "for (i=0; i<MAXLEN; i++)" but should be "for (i=0; i<=MAXLEN; i++)"
-The two nested loops then are "for (i=1; i<strlen(s); i++)" and "for (j=1; j<strlen(t); j++)"
-but should be "for (i=1; i<=strlen(s); i++)" and "for (j=1; j<=strlen(t); j++".
 
 Page 285, in describing the the edit steps between the srouce and target strings:
 "... and finally replace the "t" with a "d"" should be
@@ -339,8 +337,13 @@ Page 285, in describing the the edit steps between the srouce and target strings
 Page 290, just before first bullet, "... the entire sequence?"
 Remove "?" - it is not a question.
 
-Page 291, there is errata online about the table and l_i, which seems to be already fixed.
+Page 290, last line, the definition of l_0:
+Should it maybe be "l_1 = 1" instead because there is no index 0 in the table below.
 
+Page 291, line 12, "against (up to) i-1 <= n values".
+Should be "against (up to) i-1 < n values".
+
+Page 291, there is errata online about the table and l_i, which seems to be already fixed.
 
 
 
