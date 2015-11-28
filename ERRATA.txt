@@ -345,7 +345,15 @@ Should be "against (up to) i-1 < n values".
 
 Page 291, there is errata online about the table and l_i, which seems to be already fixed.
 
+Page 297, there errata about p[j] - p[i-1] seems to have been already fixed.
 
+Page 303, 8.7.2, line 3 after the heading, "how long it take"
+Should be "how long it takes"
+
+Page 311, 8.5 b, "in order of nonincreasing order"
+Should be "in order of nonincreasing"
+
+Page 315, 8.24, "denominators" => "denominations"
 
 
 
