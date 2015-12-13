@@ -355,6 +355,46 @@ Should be "in order of nonincreasing"
 
 Page 315, 8.24, "denominators" => "denominations"
 
+(*) Page 319, CloseEnoughPair(S,t)
+The min argument does not need to be an absolute value, because the items are sorted.
+So it could be min_i (s_i+1 - s_i).
+
+Page 321, line 9, "the the" => "the"
+
+Page 321, 9.2.3, line 2, "an integer d that a = bd" => "an integer d such that a = bd"
+
+Page 321, last line, "namely" => "namely:"
+
+Page 322, 9.2.4, line 4, "must lie" => "lies"
+
+Page 323, Figure 9.2
+The direction of the arrows might be confusing because it is 
+the opposite of what's reduced to what in the chapter.
+
+Page 323, Figure 9.2
+3-SAT, not the general sat, was reduced to Integer Programming.
+
+Page 324, 9.3.1, "Output: Does there exist a simple tour ..."
+Should be "Does there exist a cycle ...".
+Otherwise it would be the Hamiltonian path, right?
+
+Page 325, line -6, "Traveling-Salesman-Problem-Decision-Problem"
+Remove the dashes from the problem name to be consistent.
+
+Page 326, lines 3 and 4, occures twice:
+"S - V" should be "V - S"
+
+Page 327, last line on the page, "... where |S| <= k ..."
+Should it not be "... where |S| >= k ..." ?
+
+Page 333, 9.5.2, the repeated definition of Vertex Cover is not 100% identical
+with the one previously given on page 325.
+
+Page 343, line 5, "A fast algorithms"
+Should be "A fast algorithm"
+
+
+
 
 
 
