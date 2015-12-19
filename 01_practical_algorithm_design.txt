@@ -390,10 +390,22 @@ Should it not be "... where |S| >= k ..." ?
 Page 333, 9.5.2, the repeated definition of Vertex Cover is not 100% identical
 with the one previously given on page 325.
 
+Page 341, 9.9.1, line 1, "P vs NP"
+The heading 9.9 uses "vs." (with a dot) so it should be "P vs. NP".
+
 Page 343, line 5, "A fast algorithms"
 Should be "A fast algorithm"
 
+Page 345, in the definition of VertexCover, "edge (u,v) <= E"
+Should be "edge (u,v) element E"
 
+Page 351, 9-3, "the traveling salesman problem of page 318"
+Should be "on page" and it's actually defined on page 319.
+
+Page 351, 9-7, "does there exist k subsets"
+Should be "do there exist k subsets"
+
+Page 360, line -2, [P5'7] ... 5 with an accute looks strange :)
 
 
 
