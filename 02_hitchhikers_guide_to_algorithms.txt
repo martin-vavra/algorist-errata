@@ -1,0 +1,27 @@
+Page 369, "How big should the table be?; With bucketing, m should about the same ..."
+Missing "be"
+
+Page 370, "2/3 trees" --> "2-3 trees"
+
+Page 374, bullet 4, missing dot at the end.
+
+Page 381, last line, "will done" > "will be done"
+
+Page 381, line -7, "hypergrapgs" > "hypergraph"
+
+Page 388, notes section, line 3
+"... set operations on a variaty of different operations" twice the word operations
+
+Page 391, line -11, "nearest nearest" > "nearest"
+
+Page 393, line 3, "overview to" > "overview of"
+
+Page 397, line -7, "is one of most" > "is one of the most"
+
+Page 399, line 5, "all these variants is NP-complete"
+> "all these variants are NP-complete"
+
+Page 404, 13.4, Problem description: ... "of the matrix m" > "of the matrix M"
+
+Page 414, line 8, "on on" > "on"
+
