@@ -25,3 +25,13 @@ Page 404, 13.4, Problem description: ... "of the matrix m" > "of the matrix M"
 
 Page 414, line 8, "on on" > "on"
 
+Page 416, line 6, "pseudorandom-number generator" > "pseudorandom number generator"
+
+Page 416, second bullet point, "random-number generator" > "random number generator"
+
+Page 418, line 2, 3, 4, 20, 25, 28, 32, "random-number" > "random number"
+
+Page 426, besides BigInteger, I'd also mention BigDecimal.
+
+Page 432, line -8, "enables us move" > "enables us to move"
+
