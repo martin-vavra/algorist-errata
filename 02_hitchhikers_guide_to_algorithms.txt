@@ -35,3 +35,58 @@ Page 426, besides BigInteger, I'd also mention BigDecimal.
 
 Page 432, line -8, "enables us move" > "enables us to move"
 
+Page 439, line 19, "SortedMap and SortedSet classes are provided"
+These are not classes but interfaces with implementations such as TreeMap and TreeSet.
+
+Page 439, line 20, "an cache-oblivious" > "a cache oblivious"
+
+Page 439, Notes, "It is not over thirty years old"
+Knu98 is not 30 years old.
+
+Page 443, line 8, "splay trees. which" > "splay trees, which"
+
+Page 444, line 10, "implementation" > "implementations"
+
+Page 445, Problem description and Order statistics (last bullet)
+These two do not match. One possible definition:
+Problem description: Find the key greater than or equal to exactly k of the n keys.
+Order statistics:
+- smallest ... k = 1
+- largest .... k = n
+- median ..... k = n/2
+
+Page 446, line 11,
+It should be noted that the described algorithm is called quick-select.
+
+Page 447, line -5, "lower bower bound" > "lower bound"
+
+Page 450, (Section 14.4), "swap[...]" should probably be "swap(...)"
+
+Page 454, first bullet point should be "k-subsets" (lower K)
+
+Page 466, Implementations, "The Calendar class in java.util.Calendar implements the Gregorian calendar in Java."
+> "The class GregorianCalendar derived from the abstract super class Calendar in the package java.util implements the Gregorian calendar in Java."
+
+Page 466, line -10, "... is likely to be the most comprehensive and reliable calendrical routines available."
+> "... is likely to be the most comprehensive and reliable library of calendrical routines available."
+
+Page 466, line -5, "appear" > "appears"
+
+Page 466, line -2, "calendars Three" > "calendars. Three"
+
+Page 480, line 2, "algorithms. including" > "algorithms, including"
+
+Page 481, line -8, "are" > "are:"
+
+Page 485, line 5, "are" > "are:"
+
+Page 485, line 7, "merges" > "merge"
+
+Page 485, the Kruskal(G) ... missing "++count" in the pseudo code.
+
+Page 488, line -9, "an graph" > "a graph"
+
+
+
+
+
