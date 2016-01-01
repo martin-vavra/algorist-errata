@@ -86,6 +86,15 @@ Page 485, the Kruskal(G) ... missing "++count" in the pseudo code.
 
 Page 488, line -9, "an graph" > "a graph"
 
+Page 490, line 18, "path from v" > "path from x"
+
+Page 500, line 7, "These include" > "These include:"
+
+Page 502, line -6, remove "without" which is duplicated
+
+Page 504, line 26, the reference "J9'2" has an accute above "9"
+
+
 
 
 
