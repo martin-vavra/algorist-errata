@@ -1,3 +1,5 @@
+The whole Part II ... The last paragraph of every "Notes" section has bigger line spacing than the others.
+
 Page 369, "How big should the table be?; With bucketing, m should about the same ..."
 Missing "be"
 
@@ -93,6 +95,45 @@ Page 500, line 7, "These include" > "These include:"
 Page 502, line -6, remove "without" which is duplicated
 
 Page 504, line 26, the reference "J9'2" has an accute above "9"
+
+Page 506, line 13, "whose the vertices" > "whose vertices"
+
+(*) Page 510, maximum flow equation, The equation won't work with the given definition of x_ij.
+The definition should be should be extended to cover the case when there is no such edge (i,j) and in that case x_ij=0.
+
+Page 514, line 15, "especially for true for" > "especially true for"
+
+Page 520, line -7, "there must always a" > "there must always be a"
+
+Page 522, line 2 in Notes, "homeomorphic" ... should this be "homomorphic"?
+
+Page 530, line -5, "no edge both" > "no edge where both"
+
+Page 535, second bullet point, line 5, "such that" > "such that:"
+
+Page 535, the max min formula in the middle of the page,
+The upper limit of the min function should probably be |T| - 1 because we use v_i+1.
+This however still does not cover the case where we have exactly 1 item in the partial tour T,
+which should probably be covered separately by using a formula with just MAX.
+
+Page 538, line 5, "traveling salesman problem G'" > "traveling salesman problem on the graph G'"
+
+Page 538, line 5, "distance 1 in 'G" > "distance 1 in G'"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
