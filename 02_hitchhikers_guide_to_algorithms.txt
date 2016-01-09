@@ -120,6 +120,17 @@ Page 538, line 5, "traveling salesman problem G'" > "traveling salesman problem 
 
 Page 538, line 5, "distance 1 in 'G" > "distance 1 in G'"
 
+(*) Page 555, input description, "A subset of vertices T element V."
+> "A subset of vertices T subset V."
+
+(*) Page 555, line -3, "S = V" > "T = V"
+
+Page 560, line 2, "rank order" > "rank"
+
+Page 560, line 4, "be at" > "beat"
+
+Page 562, line -5, "most every" > "almost every"
+
 
 
 
