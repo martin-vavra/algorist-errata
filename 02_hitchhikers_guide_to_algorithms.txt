@@ -131,7 +131,26 @@ Page 560, line 4, "be at" > "beat"
 
 Page 562, line -5, "most every" > "almost every"
 
+Page 564, line -6, "intersect in more or less than" > "intersect AT more THAN or less than"
 
+(*) Page 570, line 17, "counterclockwise around v" ... v was not defined.
+
+Page 570, line -2, "for from" > "for"
+
+Page 571, line 12, "Avis's lhs" ? "Avis's lrs"
+
+Page 574, line -2, "for from" > "for"
+
+(*) Page 576, line 3, "are closer to p_i than any other point in S"
+> "are closer to p_i than TO any other point in S"
+
+Page 578, line -15, "for from" > "for"
+
+Page 581, line 23, "any other point in S" > "to any other point in S"
+
+Page 592, line 5, "intersect in at" > "intersect at"
+
+Page 594, line 5, "offers" > "offer"
 
 
 
