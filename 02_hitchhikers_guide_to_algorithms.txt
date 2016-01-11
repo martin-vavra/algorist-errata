@@ -152,6 +152,22 @@ Page 592, line 5, "intersect in at" > "intersect at"
 
 Page 594, line 5, "offers" > "offer"
 
+Page 595, line 2, "bins with capacity" > "bins with capacities"
+
+Page 596, line 8, "four bricks suffice" > "four bricks fit in"
+
+Page 596, line 11, "requiring them sit" > "requiring them to sit"
+
+Page 603, line 1, "a optimal" > "an optimal"
+
+Page 605, line -8, "Puecker" > "Peucker"
+
+Page 607, line 12, "are" > "are:"
+
+Page 615, line 4, "include" > "include:"
+
+Page 617, line -4, "include" > "include:"
+
 
 
 
