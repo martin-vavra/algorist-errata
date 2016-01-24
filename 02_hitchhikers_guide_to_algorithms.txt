@@ -168,8 +168,41 @@ Page 615, line 4, "include" > "include:"
 
 Page 617, line -4, "include" > "include:"
 
+Page 621, line 7, "Finding a set cover" ... The indefinite article should not be in italics.
 
+Page 621, line 10, "let you" > "lets you"
 
+Page 624, line -13, missing . at the end of the paragraph.
+
+Page 625, line 1, "A set of subsets S" > "A collection of subsets"
+To be consistent with the definition of set cover on page 621.
+
+Page 626, line -2, "enables us modulate" > "enables us to modulate"
+
+Page 630, line 20, either "can be found ... and it supersedes"
+or "found ... supersedes" (without "and")
+
+Pahe 632, line -13, "depend" > "depends"
+
+Page 633, line -3, "We need only maintain" > "We only need to maintain"
+
+Page 634, line 18, "has incentive" > "has an incentive"
+
+Page 642, line -10, "are a planning" > "are planning a"
+
+Page 642, line -7, "had the NSA had been" > "had the NSA been"
+
+Page 645, line -5, remove extra line at the beginning of the line
+
+Page 647, line 20, "sweep though" > "sweep through"
+
+Page 648, line 12, "we need consider" > "we need to consider"
+
+Page 650, line -8, "include" > "include:"
+
+Page 651, line 5, "dynamic program" > "dynamic programming"
+
+Page 651, line -2, "is large field" > "is a large field"
 
 
 
